@@ -1,7 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-wickr`](https://www.npmjs.com/package/@aws-sdk/client-wickr/v/3.1044.0).
+[`@aws-sdk/client-wickr`](https://www.npmjs.com/package/@aws-sdk/client-wickr/v/3.1045.0).
+
+Refer to the links below for detailed documentation:
+- All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
+- @aws-sdk/client-wickr - [https://cloud-sdk-builds.github.io/?sdk=client-wickr](https://cloud-sdk-builds.github.io/?sdk=client-wickr)
+- @aws-sdk/client-wickr v3.1045.0 - [https://cloud-sdk-builds.github.io/?sdk=client-wickr&version=3.1045.0](https://cloud-sdk-builds.github.io/?sdk=client-wickr&version=3.1045.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1044.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1045.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-01yHtpSQVdlJ4KQHWxP7ecIOOaemurCF/+lgZZKEWAgXBDqewV/AhztFYYrC5EIq
+sha384-f3hK8hs6UdFpnyq2HK8eIk7mPGUq+iFB5+v0DTerHwOgYwkw8/BwEVXawZYJsPnH
 ```
 
 ### 📌 Latest Version
@@ -61,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-wickr": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1044.0/index.min.mjs"
+            "@aws-sdk/client-wickr": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1045.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1044.0/index.min.mjs": "sha384-01yHtpSQVdlJ4KQHWxP7ecIOOaemurCF/+lgZZKEWAgXBDqewV/AhztFYYrC5EIq"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1045.0/index.min.mjs": "sha384-f3hK8hs6UdFpnyq2HK8eIk7mPGUq+iFB5+v0DTerHwOgYwkw8/BwEVXawZYJsPnH"
         }
       }
 </script>
@@ -81,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-wickr": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1044.0/index.min.mjs"
+                        "@aws-sdk/client-wickr": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1045.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1044.0/index.min.mjs": "sha384-01yHtpSQVdlJ4KQHWxP7ecIOOaemurCF/+lgZZKEWAgXBDqewV/AhztFYYrC5EIq"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wickr@3.1045.0/index.min.mjs": "sha384-f3hK8hs6UdFpnyq2HK8eIk7mPGUq+iFB5+v0DTerHwOgYwkw8/BwEVXawZYJsPnH"
                     }
                   }
             </script>
@@ -151,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1044.0`)
+* Always pin to a specific version (`@3.1045.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,9 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-wickr/blob/refs/tags/3.1044.0/LICENSE
+https://github.com/cloud-sdk-builds/client-wickr/blob/refs/tags/3.1045.0/LICENSE
 ```
 
 ---
-
-If you want, I can next give you a **legally safest naming pattern** for all repositories (very important for trademark safety, especially avoiding “aws-sdk” in repo names while still keeping discoverability).
